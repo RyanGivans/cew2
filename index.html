@@ -1,25 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>CEW Landscape</title>
-    <meta name="description" content="CEW Landscape — built on Replit. Update this description to reflect the app." />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="CEW Landscape" />
-    <meta property="og:description" content="CEW Landscape — built on Replit. Update this description to reflect the app." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="CEW Landscape" />
-    <meta name="twitter:description" content="CEW Landscape — built on Replit. Update this description to reflect the app." />
-    <link rel="icon" type="image/svg+xml" href="/cew2/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/cew2/assets/index-DCditqu2.js"></script>
-    <link rel="stylesheet" crossorigin href="/cew2/assets/index-D-3hQlY7.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CEW Landscape | Northwest Arkansas Landscaping</title>
+  <meta name="description" content="CEW Landscape provides landscape design, installation, hardscapes, drainage, irrigation, and maintenance services for residential and commercial clients across Northwest Arkansas." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="CEW Landscape | Landscape Design, Installation & Maintenance in Northwest Arkansas" />
+  <meta property="og:description" content="Professional landscape design, installation, hardscapes, drainage, irrigation, and maintenance services for residential and commercial properties across Northwest Arkansas." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CEW Landscape | Northwest Arkansas Landscaping" />
+  <meta name="twitter:description" content="Design. Build. Maintain. Professional outdoor solutions for Northwest Arkansas." />
+  <link rel="icon" type="image/svg+xml" href="/cew2/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--green:#1f3d2b;--green2:#315c41;--tan:#f3efe5;--cream:#fbf8f0;--text:#1b211c;--muted:#5d665f;--line:#ded7c8;--white:#fff;--shadow:0 18px 55px rgba(22,34,24,.14)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:var(--cream);line-height:1.6}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}.wrap{width:min(1160px,92%);margin:auto}.eyebrow{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--green2)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.9rem 1.15rem;border-radius:999px;font-weight:800;border:2px solid var(--green);transition:.2s}.btn.primary{background:var(--green);color:#fff}.btn.secondary{background:rgba(255,255,255,.8);color:var(--green)}.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+    header{position:sticky;top:0;z-index:20;background:rgba(251,248,240,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:.75rem;font-weight:900;color:var(--green);letter-spacing:-.03em}.logo{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--green),#6d8b58);display:grid;place-items:center;color:#fff;font-weight:900}.links{display:flex;align-items:center;gap:1.15rem;font-size:.94rem;font-weight:700;color:#394238}.links a:hover{color:var(--green2)}
+    .hero{position:relative;min-height:760px;display:grid;align-items:center;overflow:hidden;background:linear-gradient(120deg,rgba(31,61,43,.92),rgba(31,61,43,.55)),url('/cew2/images/hero.png') center/cover no-repeat;color:#fff}.hero:after{content:"";position:absolute;inset:auto 0 0;height:170px;background:linear-gradient(transparent,var(--cream))}.hero .wrap{position:relative;z-index:2}.hero-grid{display:grid;grid-template-columns:1.05fr .75fr;gap:3rem;align-items:center}.hero h1{font-size:clamp(3.3rem,8vw,7.8rem);line-height:.88;margin:.4rem 0 1rem;letter-spacing:-.07em}.hero p{font-size:1.18rem;max-width:720px;color:rgba(255,255,255,.9)}.hero-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin:2rem 0}.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-top:2rem}.pill{padding:.8rem .9rem;border:1px solid rgba(255,255,255,.28);border-radius:18px;background:rgba(255,255,255,.11);font-weight:800}.hero-card{background:rgba(255,255,255,.92);color:var(--text);border-radius:30px;padding:1.2rem;box-shadow:var(--shadow)}.hero-card img{height:330px;width:100%;object-fit:cover;border-radius:22px}.hero-card strong{display:block;color:var(--green);font-size:1.25rem;margin:1rem 0 .25rem}.hero-card p{color:var(--muted);font-size:.98rem;margin:0}
+    section{padding:84px 0}.section-head{max-width:820px;margin:0 0 2.2rem}.section-head h2{font-size:clamp(2rem,4vw,3.6rem);line-height:1;letter-spacing:-.055em;color:var(--green);margin:.25rem 0 1rem}.section-head p{font-size:1.08rem;color:var(--muted)}.grid{display:grid;gap:1rem}.cards4{grid-template-columns:repeat(4,1fr)}.cards3{grid-template-columns:repeat(3,1fr)}.card{background:#fff;border:1px solid var(--line);border-radius:26px;padding:1.35rem;box-shadow:0 8px 28px rgba(28,44,30,.06)}.card h3{margin:.1rem 0 .45rem;color:var(--green);font-size:1.15rem}.card p{margin:0;color:var(--muted)}.card ul{margin:.75rem 0 0;padding-left:1.1rem;color:#3d463f}.card li{margin:.35rem 0}.split{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center}.image-card{border-radius:32px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:#fff}.image-card img{height:440px;width:100%;object-fit:cover}.band{background:var(--tan)}.process{counter-reset:step;grid-template-columns:repeat(4,1fr)}.step{position:relative}.step:before{counter-increment:step;content:counter(step);width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#fff;font-weight:900;margin-bottom:.8rem}.note{background:var(--green);color:#fff;border-radius:26px;padding:1.25rem 1.45rem;margin-top:1.4rem;font-weight:700}.service-grid{grid-template-columns:repeat(2,1fr)}.service-card{display:grid;grid-template-columns:120px 1fr;gap:1rem}.service-card img{width:120px;height:120px;object-fit:cover;border-radius:20px}.service-card h3{margin-top:0}.about-copy{font-size:1.02rem;color:#394238}.about-copy p{margin:0 0 1rem}.details{background:#fff;border:1px solid var(--line);border-radius:26px;padding:1.25rem;margin-top:1rem}.details summary{cursor:pointer;font-weight:900;color:var(--green);font-size:1.15rem}.testimonials{grid-template-columns:repeat(3,1fr)}blockquote{margin:0}.quote{font-size:.98rem;color:#303832}.person{margin-top:1rem;font-weight:900;color:var(--green)}.cta{background:linear-gradient(135deg,var(--green),#426345);color:#fff;text-align:center}.cta h2{font-size:clamp(2.2rem,5vw,4.8rem);letter-spacing:-.06em;line-height:1;margin:.3rem 0 1rem}.cta p{color:rgba(255,255,255,.86);font-size:1.12rem;max-width:780px;margin:0 auto 2rem}footer{background:#142219;color:#dce6dc;padding:42px 0}.footer-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:2rem}footer h3,footer strong{color:#fff}footer p,footer li{color:#b9c7ba}footer ul{list-style:none;padding:0;margin:.6rem 0 0}.small{font-size:.9rem;color:#78857c;margin-top:2rem;border-top:1px solid rgba(255,255,255,.12);padding-top:1.2rem}
+    @media(max-width:950px){.links{display:none}.hero-grid,.split,.footer-grid{grid-template-columns:1fr}.hero{min-height:auto;padding:110px 0 80px}.hero-card{display:none}.cards4,.cards3,.process,.service-grid,.testimonials{grid-template-columns:1fr 1fr}.trust{grid-template-columns:1fr 1fr}.service-card{grid-template-columns:1fr}.service-card img{width:100%;height:190px}.image-card img{height:300px}}
+    @media(max-width:620px){nav{height:66px}.hero h1{font-size:3.4rem}.cards4,.cards3,.process,.service-grid,.testimonials,.trust{grid-template-columns:1fr}section{padding:62px 0}.hero-actions .btn{width:100%}.card{border-radius:22px}}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <a class="brand" href="#home"><span class="logo">CEW</span><span>CEW Landscape</span></a>
+      <div class="links"><a href="#services">Services</a><a href="#process">Process</a><a href="#about">About</a><a href="#testimonials">Testimonials</a><a href="#contact">Contact</a></div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Northwest Arkansas Landscape Design, Installation & Maintenance</div>
+          <h1>Design.<br>Build.<br>Maintain.</h1>
+          <p>CEW Landscape provides complete outdoor solutions for residential and commercial properties across Northwest Arkansas. From the first design conversation to professional installation and long-term maintenance, our team creates outdoor spaces that are thoughtfully planned, carefully built, and made to last.</p>
+          <div class="hero-actions"><a class="btn primary" href="#contact">Request a Free Estimate</a><a class="btn secondary" href="#services">View Services</a></div>
+          <div class="trust"><div class="pill">Founded in 2020</div><div class="pill">25+ Years of Experience</div><div class="pill">Landscape Architecture Background</div><div class="pill">Residential & Commercial</div><div class="pill">Free Estimates</div><div class="pill">Design. Build. Maintain.</div></div>
+        </div>
+        <div class="hero-card"><img src="/cew2/images/front-yard.png" alt="Finished landscape project by CEW Landscape"><strong>Creating outdoor spaces that last.</strong><p>Thoughtful design, quality workmanship, clear communication, and dependable long-term care.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head"><span class="eyebrow">Why CEW Landscape?</span><h2>A complete outdoor solution from concept to care.</h2><p>With more than 25 years of experience in landscape architecture, design, construction, and maintenance, CEW Landscape provides clients with a complete design-build-maintain approach. Every project is thoughtfully planned, professionally installed, and expertly maintained for years to come.</p></div>
+        <div class="grid cards4">
+          <div class="card"><h3>Thoughtful Design</h3><p>Every project begins with understanding the client’s vision, evaluating the property, and creating a plan that fits the space, budget, and long-term needs.</p></div>
+          <div class="card"><h3>Quality Installation</h3><p>We take pride in quality materials, proper plant selection, skilled construction, and professional installation. No shortcuts are taken.</p></div>
+          <div class="card"><h3>Reliable Maintenance</h3><p>After installation, CEW Landscape can continue maintaining the property with the same level of care, detail, and professionalism.</p></div>
+          <div class="card"><h3>Clear Communication</h3><p>Clients are kept informed before, during, and after the project. Communication is a top priority throughout every phase.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="band">
+      <div class="wrap">
+        <div class="section-head"><span class="eyebrow">Services</span><h2>CEW Landscape Services</h2><p>At CEW Landscape, we provide comprehensive outdoor solutions for residential and commercial properties throughout Northwest Arkansas. From initial design and construction to ongoing maintenance, our team delivers professional services tailored to each client’s needs.</p></div>
+        <div class="grid service-grid">
+          <div class="card service-card"><img src="/cew2/images/front-yard.png" alt="Landscape design and installation"><div><h3>Design Services</h3><ul><li>Professional Landscape Design</li><li>Landscape Master Planning</li><li>Planting Plans and Material Selection</li><li>Outdoor Living Space Design</li><li>Irrigation System Design</li><li>Landscape Lighting Design</li></ul></div></div>
+          <div class="card service-card"><img src="/cew2/images/patio.png" alt="Landscape installation"><div><h3>Installation Services</h3><ul><li>Professional Landscape Installation</li><li>Landscape Renovations and Upgrades</li><li>Irrigation System Installation</li><li>Landscape Lighting Installation</li><li>Sod Installation</li><li>Planting of Trees, Shrubs, and Perennials</li><li>Mulching and Bed Enhancements</li></ul></div></div>
+          <div class="card service-card"><img src="/cew2/images/retaining-wall.png" alt="Hardscape and retaining wall"><div><h3>Hardscapes & Outdoor Construction</h3><ul><li>Natural Stone Installation</li><li>Flagstone Patios and Walkways</li><li>Rock Features and Decorative Stonework</li><li>Retaining Walls</li><li>Garden Walls</li><li>Outdoor Gathering Areas</li><li>Pathways and Landscape Features</li></ul></div></div>
+          <div class="card service-card"><img src="/cew2/images/drainage.png" alt="Drainage solution"><div><h3>Grading & Drainage Solutions</h3><ul><li>Site Grading and Reshaping</li><li>Drainage Correction</li><li>French Drains</li><li>Surface Drainage Improvements</li><li>Erosion Control Solutions</li><li>Yard Leveling and Smoothing</li></ul></div></div>
+          <div class="card"><h3>Landscape Improvements & Property Enhancements</h3><ul><li>Landscape Updates and Refreshes</li><li>Seasonal Color Installation</li><li>Property Cleanups</li><li>Debris Removal</li><li>Bed Redefinition and Enhancement</li><li>Landscape Restoration Projects</li></ul></div>
+          <div class="card"><h3>Irrigation Services</h3><ul><li>Irrigation System Assessments</li><li>Irrigation Repairs</li><li>System Upgrades</li><li>Water Efficiency Improvements</li><li>Seasonal Startups and Winterization</li></ul></div>
+          <div class="card"><h3>Maintenance Services</h3><ul><li>Professional Mowing</li><li>Weed Eating and String Trimming</li><li>Lawn Edging</li><li>Debris Pickup and Removal</li><li>Bed Weeding</li><li>Shrub and Hedge Trimming</li><li>Ornamental Tree Pruning</li><li>Mulch Installation and Refreshing</li><li>Seasonal Cleanup Services</li></ul></div>
+          <div class="card"><h3>Property Care & Commercial Services</h3><ul><li>Power Washing</li><li>General Property Appearance Maintenance</li><li>Landscape Monitoring and Recommendations</li><li>Commercial Property Maintenance</li><li>Office Complex Maintenance</li><li>HOA and Multi-Family Property Services</li><li>Retail Center Landscape Care</li><li>Landscape Enhancement Programs</li><li>Seasonal Property Improvements</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="wrap">
+        <div class="section-head"><span class="eyebrow">Our Process</span><h2>Clear, organized, and professional from start to finish.</h2><p>CEW Landscape guides each project from the first conversation through final walkthrough, keeping the process simple and transparent.</p></div>
+        <div class="grid process">
+          <div class="card step"><h3>Initial Contact</h3><p>We learn about your property, goals, timeline, and outdoor needs.</p></div>
+          <div class="card step"><h3>On-Site Meeting</h3><p>We walk the property, discuss ideas, identify challenges, and understand the vision.</p></div>
+          <div class="card step"><h3>Site Assessment</h3><p>We evaluate sunlight, drainage, grading, irrigation, plant health, access, and maintenance needs.</p></div>
+          <div class="card step"><h3>Design Work</h3><p>When needed, we create a design or plan to help visualize the project before installation.</p></div>
+          <div class="card step"><h3>Estimate</h3><p>We prepare a detailed estimate based on scope, materials, labor, and goals.</p></div>
+          <div class="card step"><h3>Review</h3><p>We meet to review the design and estimate, answer questions, and confirm the direction.</p></div>
+          <div class="card step"><h3>Revisions</h3><p>If adjustments are needed, we revise the design or estimate before final approval.</p></div>
+          <div class="card step"><h3>Final Approval</h3><p>Once approved, we finalize details and prepare the agreement.</p></div>
+          <div class="card step"><h3>Contract & Deposit</h3><p>The client signs the contract and submits the deposit to secure the project.</p></div>
+          <div class="card step"><h3>Scheduling</h3><p>We coordinate installation timing based on materials, weather, and project scope.</p></div>
+          <div class="card step"><h3>Project Completion</h3><p>Our team completes the work with attention to detail, quality materials, and professional workmanship.</p></div>
+          <div class="card step"><h3>Final Walkthrough</h3><p>We conduct a detailed walkthrough, confirm approval, and review plant care, watering schedules, and aftercare.</p></div>
+        </div>
+        <div class="note">Free estimates are available. When design work is needed, design costs may be deducted from the final installation project.</div>
+      </div>
+    </section>
+
+    <section id="about" class="band">
+      <div class="wrap split">
+        <div class="image-card"><img src="/cew2/images/hero.png" alt="CEW Landscape outdoor project"></div>
+        <div class="about-copy">
+          <span class="eyebrow">About</span><h2 style="font-size:clamp(2rem,4vw,3.3rem);line-height:1;letter-spacing:-.05em;color:var(--green);margin:.25rem 0 1rem">About CEW Landscape</h2>
+          <p>Established in 2020, CEW Landscape is a Northwest Arkansas-based design-build-maintain landscape company focused on delivering project-specific, customer-driven landscape solutions and high-quality installations.</p>
+          <p>We specialize in creating outdoor spaces that are thoughtfully designed, properly constructed, and built to last. Every project begins with understanding the client’s vision and translating it into a functional, beautiful, and sustainable landscape.</p>
+          <p>We take pride in the use of quality materials installed with care, precision, and craftsmanship. Our team is intentional in every detail, from layout and grading to plant selection and placement.</p>
+          <p>We evaluate site conditions, sunlight, drainage, long-term maintenance needs, soil conditions when appropriate, and irrigation coverage to support healthy landscapes and efficient watering.</p>
+          <p>Throughout every phase, communication is a top priority. Upon completion, we conduct a detailed walkthrough and review plant care, watering schedules, and aftercare recommendations.</p>
+        </div>
+      </div>
+      <div class="wrap">
+        <details class="details"><summary>About the Founder</summary><div class="about-copy"><h3>Chad E. Walters, BLA<br><span style="font-weight:600;color:var(--muted)">Founder & Owner, CEW Landscape</span></h3><p>Chad E. Walters is the founder and owner of CEW Landscape, a full-service design, build, and maintenance landscape company serving Northwest Arkansas.</p><p>Originally from Hot Springs, Arkansas, Chad moved to Northwest Arkansas in 1995 to pursue a degree in Landscape Architecture at the University of Arkansas. After earning a Bachelor of Landscape Architecture in 2000, he began a career spanning more than two decades in the landscape and engineering industries.</p><p>Throughout his career, Chad has gained experience in landscape design, project management, construction, operations, and business leadership. His professional journey also took him to Denver, where he spent three years coaching high school baseball while continuing to work as a landscape designer.</p><p>After returning to Arkansas, Chad managed and operated a large landscape company for several years, gaining extensive experience overseeing crews, client relationships, business operations, and large-scale landscape projects. In 2020, he launched CEW Landscape with a commitment to quality, professionalism, and customer service.</p><p>Today, Chad continues to lead the company with a hands-on approach, focusing on lasting relationships, talented teams, and landscapes that enhance the beauty, functionality, and value of every property.</p></div></details>
+        <details class="details"><summary>Company Story, Mission & Vision</summary><div class="about-copy"><p>Founded in 2020, CEW Landscape was built on a simple idea: provide clients with a complete landscape solution from concept to completion and beyond.</p><p>As a design-build-maintain company, CEW Landscape combines professional design expertise, quality construction, and dependable maintenance services under one roof. Serving residential and commercial clients across Northwest Arkansas, CEW Landscape specializes in landscape design, installation, renovation, hardscapes, irrigation, and maintenance programs tailored to each property’s unique needs.</p><p>What began as a new venture during one of the most challenging periods in recent history has grown into a thriving business. Through craftsmanship, reliability, and customer satisfaction, CEW Landscape has established itself as a trusted partner for homeowners, businesses, property managers, and developers throughout the region.</p><h3>Our Mission</h3><p>To create and maintain exceptional outdoor spaces that enhance the lives of our clients while delivering lasting value through design expertise, quality craftsmanship, and dependable service.</p><h3>Our Vision</h3><p>To be Northwest Arkansas’s premier landscape design, build, and maintenance company, known for excellence, innovation, and integrity in every project we undertake.</p><p><strong>Design. Build. Maintain.</strong><br><em>Creating outdoor spaces that last.</em></p></div></details>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="wrap">
+        <div class="section-head"><span class="eyebrow">Testimonials</span><h2>What Clients Are Saying</h2><p>Clients recommend CEW Landscape for knowledgeable design, professional crews, clear communication, fair pricing, and dependable results.</p></div>
+        <div class="grid testimonials">
+          <div class="card"><blockquote class="quote">“Chad and his crews always do a very good job either with the design or with the maintenance of my yard. Everyone is helpful and pleasant to work with.”</blockquote><div class="person">Barbara</div></div>
+          <div class="card"><blockquote class="quote">“I’m so glad I got multiple quotes on my French drain project. Not only was Chad the most knowledgeable and professional, he also came in at the most reasonable price. I now plan to use CEW for my future landscaping projects!”</blockquote><div class="person">Carolyn</div></div>
+          <div class="card"><blockquote class="quote">“Chad and his crew are the best! Chad came to my home to help me design a landscape plan. He drew up a design, made adjustments and even came back twice to make sure we had it just right. Highly recommend CEW Landscape!”</blockquote><div class="person">Susan</div></div>
+          <div class="card"><blockquote class="quote">“Did an awesome job on French drain. Great pricing. Already recommending to friends.”</blockquote><div class="person">Erika</div></div>
+          <div class="card"><blockquote class="quote">“My design was perfectly executed including some tricky stone cutting for the bed border, irrigation, and plant selection. When I say ‘I know a guy,’ it’s Chad and CEW that I recommend.”</blockquote><div class="person">Dave</div></div>
+          <div class="card"><blockquote class="quote">“I found that Chad had good communication skills and landscaping knowledge. His crew was polite and dependable. I’m very satisfied with the outcome.”</blockquote><div class="person">Janet</div></div>
+          <div class="card"><blockquote class="quote">“From first visit to install, the CEW team’s creativity and knowledge comes through. With your satisfaction the focus and their experience, the results will create such a beautiful relaxed space.”</blockquote><div class="person">Dee</div></div>
+          <div class="card"><blockquote class="quote">“Chad and his crew did a wonderful job landscaping our home. From the design process through installation, it was a great experience for us. And the yard looks absolutely beautiful!”</blockquote><div class="person">Mark</div></div>
+          <div class="card"><blockquote class="quote">“I had a rough idea of what I wanted and Chad listened and offered suggestions. The crew did a great job making the project a success and I am happy with the finished product.”</blockquote><div class="person">Karen</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="cta">
+      <div class="wrap">
+        <div class="eyebrow" style="color:#d7ead9">Start Your Project</div>
+        <h2>Ready to start your landscape project?</h2>
+        <p>Whether you need a full landscape design, drainage correction, hardscape installation, irrigation improvements, or dependable maintenance, CEW Landscape is ready to help.</p>
+        <div class="hero-actions" style="justify-content:center"><a class="btn secondary" href="mailto:info@cewlandscape.com?subject=Free%20Estimate%20Request">Request a Free Estimate</a><a class="btn primary" style="border-color:#fff;background:#fff;color:var(--green)" href="tel:">Call CEW Landscape</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div><h3>CEW Landscape</h3><p><strong>Design. Build. Maintain.</strong><br>Professional outdoor solutions for Northwest Arkansas.</p><p>Residential and commercial landscape design, installation, hardscapes, drainage, irrigation, and maintenance.</p></div>
+      <div><strong>Services</strong><ul><li>Landscape Design</li><li>Installation</li><li>Hardscapes</li><li>Drainage</li><li>Irrigation</li><li>Maintenance</li></ul></div>
+      <div><strong>Service Area</strong><ul><li>Northwest Arkansas</li><li>Residential Properties</li><li>Commercial Properties</li><li>HOA & Multi-Family</li></ul></div>
+    </div>
+    <div class="wrap small">© CEW Landscape. All rights reserved.</div>
+  </footer>
+</body>
 </html>
