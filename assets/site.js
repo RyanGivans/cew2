@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-before-after]').forEach((slider)=>{const input=slider.querySelector('input');const after=slider.querySelector('.ba-after');const handle=slider.querySelector('.ba-handle');function set(v){after.style.clipPath=`inset(0 0 0 ${v}%)`;handle.style.left=`${v}%`;}if(input){set(input.value||50);input.addEventListener('input',()=>set(input.value));}});
